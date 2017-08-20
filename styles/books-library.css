@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+#menu {
+    background: #DDD;
+    text-align: center;
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 3px;
+    /*overflow: auto;*/
+}
+
+#menu>#loggedInUser {
+    float: right;
+    margin-right: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px;
+    color: brown;
+    
+}
+
+#menu a:hover {
+    cursor: pointer;
+    background: #F83F3F;
+    color: white;
+}
+
+main > section {
+    display: none;
+    padding: 20px 5px;
+}
+
+#viewBooks h1{
+    text-align: center;
+}
+
+table {
+    margin: 0px auto;
+}
+
+table th {
+    padding: 10px;
+    background: #DDD;
+}
+
+table td {
+    padding: 5px 10px;
+    background: #EEE;
+}
+
+#loadingBox, #infoBox, #errorBox {
+    display: none;
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#loadingBox {
+    background: cadetblue;
+}
+
+#infoBox {
+    background: green;
+}
+
+#errorBox {
+    background: red;
+}
+
+footer {
+    text-align: center;
+    background: #7a7a7a;
+    margin: 0px auto;
+    padding: 20px;
+}
+
